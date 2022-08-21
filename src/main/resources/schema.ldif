@@ -1,0 +1,39 @@
+
+dn: dc=kp,dc=com
+objectClass: top
+objectClass: domain
+
+dn: ou=groups,dc=kp,dc=com
+objectclass: top
+objectclass: organizationalUnit
+ou: groups
+
+dn: ou=people,dc=kp,dc=com
+objectclass: top
+objectclass: organizationalUnit
+ou: people
+
+dn: ou=otherpeople,dc=kp,dc=com
+objectclass: top
+objectclass: organizationalUnit
+ou: otherpeople
+
+dn: uid=D422524,ou=people,dc=kp,dc=com
+objectclass: top
+objectclass: person
+objectclass: organizationalPerson
+objectclass: inetOrgPerson
+cn: D422524
+sn: Cook
+uid: D422524
+userPassword: D422524password
+
+dn: uid=J86288,ou=otherpeople,dc=kp,dc=com
+objectclass: top
+objectclass: person
+objectclass: organizationalPerson
+objectclass: inetOrgPerson
+cn: J86288
+sn: Besoz
+uid: J86288
+userPassword: J86288password
